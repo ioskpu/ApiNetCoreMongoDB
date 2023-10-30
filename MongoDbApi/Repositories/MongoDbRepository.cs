@@ -10,8 +10,12 @@ public class MongoDbRepository
 
     public MongoDbRepository()
     {
-        client = new MongoClient("");
+        DotNetEnv.Env.Load();
         
-        db = client.GetDatabase("");
+        var connectionString = Environment.GetEnvironmentVariable("MONGODB_URI");
+        
+        client = new MongoClient(connectionString);
+        
+        db = client.GetDatabase("Inventory_steelnails");
     }
 }
