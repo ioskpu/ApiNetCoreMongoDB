@@ -44,3 +44,6 @@
 /home/ioskpu/Documentos/MongoDB/MongoDbApi/MongoDbApi/obj/Debug/net7.0/MongoDbApi.pdb
 /home/ioskpu/Documentos/MongoDB/MongoDbApi/MongoDbApi/obj/Debug/net7.0/MongoDbApi.genruntimeconfig.cache
 /home/ioskpu/Documentos/MongoDB/MongoDbApi/MongoDbApi/obj/Debug/net7.0/ref/MongoDbApi.dll
+/home/ioskpu/Documentos/MongoDB/MongoDbApi/MongoDbApi/bin/Debug/net7.0/DotEnv.Core.dll
+/home/ioskpu/Documentos/MongoDB/MongoDbApi/MongoDbApi/bin/Debug/net7.0/DotNetEnv.dll
+/home/ioskpu/Documentos/MongoDB/MongoDbApi/MongoDbApi/bin/Debug/net7.0/Sprache.dll
