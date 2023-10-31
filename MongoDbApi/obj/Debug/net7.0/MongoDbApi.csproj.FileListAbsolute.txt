@@ -59,3 +59,4 @@
 /home/ioskpu/Documentos/MongoDB/MongoDbApi/MongoDbApi/bin/Debug/net7.0/System.Memory.Data.dll
 /home/ioskpu/Documentos/MongoDB/MongoDbApi/MongoDbApi/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
 /home/ioskpu/Documentos/MongoDB/MongoDbApi/MongoDbApi/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/ioskpu/Documentos/MongoDB/MongoDbApi/MongoDbApi/bin/Debug/net7.0/Web.config

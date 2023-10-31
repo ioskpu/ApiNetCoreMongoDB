@@ -1,5 +1,5 @@
 using MongoDB.Driver;
-// using DotNetEnv;
+using DotNetEnv;
 
 namespace MongoDbApi.Repositories;
 
@@ -13,7 +13,11 @@ public class MongoDbRepository
     {
         DotNetEnv.Env.Load();
         
-        var connectionString = Environment.GetEnvironmentVariable("MONGODB_URI");
+        var connectionString = Environment.GetEnvironmentVariable("MONGODB_URI_AZURE");
+        if (string.IsNullOrEmpty(connectionString))
+        {
+            connectionString = Environment.GetEnvironmentVariable("MONGODB_URI");
+        }
         
         client = new MongoClient(connectionString);
         
